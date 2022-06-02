@@ -8,7 +8,7 @@ class UnsupportedDevice extends React.Component {
                 <div className="UnsupportedDevice__content">
                     <img className="UnsupportedDevice__logo" src={'/img/logo/dnero_wallet_logo@2x.png'}/>
                     <div className="UnsupportedDevice__title">
-                        This wallet is designed for desktop. Try our mobile wallets!
+                        This wallet is designed for desktop.
                     </div>
        
                 </div>
