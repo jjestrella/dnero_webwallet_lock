@@ -8,8 +8,8 @@ const getTokenIconUrl = (fileName) => {
     if(_.isEmpty(fileName)){
         return null;
     }
-    return `https://s3.us-east-2.amazonaws.com/assets.dnerochain.org/tokens/${fileName}`;
-    // return `https://assets.dnerochain.org/tokens/${fileName}`;
+    return `https://s3.eu-west-3.amazonaws.com/dnero.web.wallet/${fileName}`;
+    // return `https://s3.eu-west-3.amazonaws.com/dnero.web.wallet/${fileName}`;
 };
 
 const DneroAsset = {
@@ -49,7 +49,7 @@ const DDropAsset = (chainId) => {
             contractAddress: ddropAddress,
             address: ddropAddress,
             decimals: 18,
-            iconUrl: getTokenIconUrl(_.get(tokensByChainId, [chainId, ddropAddress, 'logo'])),
+            iconUrl: getTokenIconUrl(_.get(tokensByChainId, [chainId, ddropAddress, 'ddrop.png'])),
             balanceKey: ddropAddress
         };
     }
