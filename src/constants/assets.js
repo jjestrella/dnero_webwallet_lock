@@ -49,7 +49,7 @@ const DDropAsset = (chainId) => {
             contractAddress: ddropAddress,
             address: ddropAddress,
             decimals: 18,
-            iconUrl: getTokenIconUrl(_.get(tokensByChainId, [chainId, ddropAddress, 'ddrop.png'])),
+            iconUrl: getTokenIconUrl(('ddrop.png'), _.get(tokensByChainId, [chainId, ddropAddress])),
             balanceKey: ddropAddress
         };
     }
