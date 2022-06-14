@@ -15,13 +15,13 @@
     /*background: -webkit-linear-gradient(left, #29b3eb 0%,#21edba 100%); !* Chrome10-25,Safari5.1-6 *!*/
     /*background: linear-gradient(to right, #29b3eb 0%,#21edba 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
     /*background-size: 100%;*/
-    background: #006AFF;
+    background: #3EBFFF;
 
     transition: all 0.2s ease-in-out;
 }
 
 .GradientButton:hover{
-    background: #3EBFFF;
+    background: #006AFF;
 }
 
 .GradientButton:active{
