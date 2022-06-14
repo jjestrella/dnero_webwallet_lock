@@ -238,8 +238,8 @@ class ChoosePasswordCard extends React.Component {
                         <label className="ChoosePasswordCard__message"
                                htmlFor="agreedToTerms">
                             <span>
-                                I understand that Dnero cannot recover or reset my password or the keystore file.
-                                I will make a backup of the keystore file / password, keep them secret, complete all
+                                I understand that DNERO cannot recover or reset my password or the Keystore file.
+                                I will make a backup of the Keystore file / password, keep them secret, complete all
                                 wallet creation steps.
                             </span>
                         </label>
